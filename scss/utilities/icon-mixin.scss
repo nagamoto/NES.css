@@ -51,7 +51,4 @@
   height: $size;
   color: $default-color;
   box-shadow: unquote($ret);
-  @-moz-document url-prefix() {
-    -webkit-box-shadow: unquote($moz);
-  }
 }
